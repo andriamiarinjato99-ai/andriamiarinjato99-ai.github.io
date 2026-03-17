@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theogène ANDRIAMIARINJATO - Portfolio</title>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#home">Theogene<span>.dev</span></a>
+      </div>
+      
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      
+      <ul class="nav-menu">
+        <li><a href="#home" class="active">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Témoignages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="portfolio">
+    <!-- HOME SECTION -->
+    <section id="home" class="section hero-section">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>ANDRIAMIARINJATO Théogène</h1>
+          <h2>Développeur Full-Stack</h2>
+          <p>Création d'applications robustes et d'interfaces utilisateur intuitives</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">Me contacter</a>
+            <a href="#services" class="btn-secondary">Voir mes projets</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- Votre photo depuis le dossier /photos -->
+          <img src="photos/ma-photo.jpg" alt="Theogène ANDRIAMIARINJATO" onerror="this.src='https://via.placeholder.com/400x400?text=Photo'">
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <h2 class="section-title">À propos de moi</h2>
+      <div class="about-row">
+        <div class="about-info">
+          <p class="about-description">
+            Développeur full-stack avec une passion pour les interfaces fluides et les architectures robustes. 
+            Je transforme des idées en applications performantes et évolutives.
+          </p>
+          
+          <div class="info-grid">
+            <div class="info-item">
+              <i class="fas fa-user"></i>
+              <strong>Nom complet :</strong>
+              <span>ANDRIAMIARINJATO Théogène</span>
+            </div>
+            
+            <div class="info-item">
+              <i class="fas fa-phone-alt"></i>
+              <strong>Téléphone :</strong>
+              <span>+(261) 0386882717</span>
+            </div>
+            
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <strong>Email :</strong>
+              <a href="mailto:andriamiarinjato99@gmail.com">andriamiarinjato99@gmail.com</a>
+            </div>
+            
+            <div class="info-item">
+              <i class="fab fa-twitter"></i>
+              <strong>Facebook :</strong>
+              <a href="#">Daiki téo</a>
+            </div>
+            
+            <div class="info-item">
+              <i class="fab fa-github"></i>
+              <strong>GitHub :</strong>
+              <a href="#">andriamiarinjato99.io</a>
+            </div>
+            
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <strong>Localisation :</strong>
+              <span>Madagascar</span>
+            </div>
+          </div>
+          
+          <a href="#contact" class="btn-contact">Discutons de votre projet</a>
+        </div>
+        
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Années d'expérience</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">20+</div>
+            <div class="stat-label">Projets réalisés</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Clients satisfaits</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section bg-light">
+      <h2 class="section-title">Mes compétences</h2>
+      <p class="section-subtitle">Expertise principale et niveaux de maîtrise</p>
+      
+      <div class="skills-wrapper">
+        <!-- JavaScript Category -->
+        <div class="skill-category">
+          <h3><i class="fab fa-js" style="color: #f7df1e;"></i> JavaScript</h3>
+          
+          <div class="skill-item" data-percent="85">
+            <div class="skill-header">
+              <span>React.js</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 85%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item" data-percent="80">
+            <div class="skill-header">
+              <span>Node.js</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item" data-percent="75">
+            <div class="skill-header">
+              <span>TypeScript</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- PHP Category -->
+        <div class="skill-category">
+          <h3><i class="fab fa-php" style="color: #777bb4;"></i> PHP</h3>
+          
+          <div class="skill-item" data-percent="90">
+            <div class="skill-header">
+              <span>Laravel</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 90%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item" data-percent="85">
+            <div class="skill-header">
+              <span>PHP 8</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 85%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item" data-percent="80">
+            <div class="skill-header">
+              <span>MySQL</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Design & Tools -->
+        <div class="skill-category">
+          <h3><i class="fas fa-pencil-ruler"></i> Design & Outils</h3>
+          
+          <div class="skill-item" data-percent="92">
+            <div class="skill-header">
+              <span>Git & GitHub</span>
+              <span class="skill-percent">92%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 92%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item" data-percent="75">
+            <div class="skill-header">
+              <span>Figma</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 75%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item" data-percent="70">
+            <div class="skill-header">
+              <span>UI/UX Design</span>
+              <span class="skill-percent">70%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section">
+      <h2 class="section-title">Mes services</h2>
+      <p class="section-subtitle">Réalisations open source & projets phares</p>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Maquettes interactives, design system, composants React.</p>
+          <a href="#" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> Voir le repo
+          </a>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Web Design</h3>
+          <p>Portfolio, landing pages, intégration Tailwind / Figma.</p>
+          <a href="#" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3>Web Dev (Laravel)</h3>
+          <p>APIs RESTful, administration custom, Livewire.</p>
+          <a href="#" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> Laravel repo
+          </a>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <h3>React / Node</h3>
+          <p>Single-page apps, tableaux de bord, authentification JWT.</p>
+          <a href="#" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> Dépôt
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="section bg-light">
+      <h2 class="section-title">Ce que mes clients disent</h2>
+
+      <div class="testimonial-card highlight">
+        <i class="fas fa-quote-left quote-icon"></i>
+        <p class="testimonial-quote">
+          "Theogène a accepté de m'accompagner gratuitement sur mon tout premier projet professionnel. 
+          En seulement une semaine, il a construit une application complète pour ma petite entreprise. 
+          Son professionnalisme et sa générosité m'ont tellement impressionné que je suis devenu son 
+          premier client payant ! Aujourd'hui, nous collaborons sur plusieurs projets."
+        </p>
+        <div class="client-info">
+          <strong>Miora Razafy</strong>
+          <span>Nouvelle cliente — Fondatrice de "Miora Créations"</span>
+          <span class="badge-gratuit">✨ Premier projet offert</span>
+        </div>
+      </div>
+      
+      
+      
+      <div class="testimonial-slider">
+        <div class="testimonial-card active">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <p>"Théogène a su transformer notre besoin en une application élégante et rapide. Son expertise Laravel/React a considérablement amélioré nos processus. Un vrai professionnel, à l'écoute et force de proposition."</p>
+          <div class="client-info">
+            <strong>Miora R.</strong>
+            <span>Fondatrice de Code&Co</span>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <p>"Excellent travail ! La communication était parfaite et le résultat dépasse nos attentes. Je recommande vivement ses services."</p>
+          <div class="client-info">
+            <strong>Jean M.</strong>
+            <span>CEO, TechStart</span>
+          </div>
+        </div>
+        
+        <div class="testimonial-nav">
+          <button class="prev-testimonial"><i class="fas fa-arrow-left"></i></button>
+          <button class="next-testimonial"><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Contactez-moi</h2>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-block">
+            <h3><i class="fas fa-phone-alt"></i> Téléphone</h3>
+            <p>+(261) 0386882717</p>
+          </div>
+          
+          <div class="contact-block">
+            <h3><i class="fas fa-envelope"></i> Email</h3>
+            <p><a href="mailto:andriamiarinjato99@gmail.com">andriamiarinjato99@gmail.com</a></p>
+          </div>
+          
+          <div class="contact-block">
+            <h3><i class="fab fa-github"></i> GitHub</h3>
+            <p><a href="#">github.com/theogene-dev</a></p>
+          </div>
+          
+          <div class="contact-block">
+            <h3><i class="fas fa-clock"></i> Disponibilité</h3>
+            <p>Lun - Ven / 8h - 20h</p>
+          </div>
+        </div>
+        
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Votre nom" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Votre email" required>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Votre message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Envoyer le message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="section newsletter-section">
+      <div class="newsletter-container">
+        <h3>Restez informé</h3>
+        <p>Recevez mes dernières réalisations et articles sur le développement</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Votre adresse email" required>
+          <button type="submit">S'abonner</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>Copyright © 2026 Théogène ANDRIAMIARINJATO. Tous droits réservés.</p>
+        <div class="footer-links">
+          <a href="#">Terms & Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Mentions légales</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
